@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		C16C85481DD9BDBE007A1A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C85471DD9BDBE007A1A46 /* main.m */; };
 		C16C854B1DD9BDBE007A1A46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C854A1DD9BDBE007A1A46 /* AppDelegate.m */; };
-		C16C854E1DD9BDBE007A1A46 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C854D1DD9BDBE007A1A46 /* FirstViewController.m */; };
-		C16C85511DD9BDBE007A1A46 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C85501DD9BDBE007A1A46 /* SecondViewController.m */; };
+		C16C854E1DD9BDBE007A1A46 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C854D1DD9BDBE007A1A46 /* HomeViewController.m */; };
+		C16C85511DD9BDBE007A1A46 /* DailyCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C85501DD9BDBE007A1A46 /* DailyCheckViewController.m */; };
 		C16C85541DD9BDBE007A1A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16C85521DD9BDBE007A1A46 /* Main.storyboard */; };
 		C16C85561DD9BDBE007A1A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16C85551DD9BDBE007A1A46 /* Assets.xcassets */; };
 		C16C85591DD9BDBE007A1A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16C85571DD9BDBE007A1A46 /* LaunchScreen.storyboard */; };
 		C16C85641DD9BDBE007A1A46 /* Wake_Up_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C85631DD9BDBE007A1A46 /* Wake_Up_Tests.m */; };
 		C16C856F1DD9BDBE007A1A46 /* Wake_Up_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C856E1DD9BDBE007A1A46 /* Wake_Up_UITests.m */; };
+		C16C857E1DD9BE3F007A1A46 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C857D1DD9BE3F007A1A46 /* ProfileViewController.m */; };
+		C16C85841DD9C5F2007A1A46 /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = C16C85831DD9C5F2007A1A46 /* Home-25.png */; };
+		C16C85861DD9C6F2007A1A46 /* Gender Neutral User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = C16C85851DD9C6F2007A1A46 /* Gender Neutral User-25.png */; };
+		C16C85881DD9C75F007A1A46 /* Today-25.png in Resources */ = {isa = PBXBuildFile; fileRef = C16C85871DD9C75F007A1A46 /* Today-25.png */; };
+		C1AEED531DE308AE00E7A52D /* Happy-52.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AEED521DE308AE00E7A52D /* Happy-52.png */; };
+		C1AEED551DE308BA00E7A52D /* Sad-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AEED541DE308BA00E7A52D /* Sad-50.png */; };
+		C1AEED581DE308E200E7A52D /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AEED571DE308E200E7A52D /* DataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +47,10 @@
 		C16C85471DD9BDBE007A1A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C16C85491DD9BDBE007A1A46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C16C854A1DD9BDBE007A1A46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C16C854C1DD9BDBE007A1A46 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C16C854D1DD9BDBE007A1A46 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C16C854F1DD9BDBE007A1A46 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C16C85501DD9BDBE007A1A46 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C16C854C1DD9BDBE007A1A46 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C16C854D1DD9BDBE007A1A46 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C16C854F1DD9BDBE007A1A46 /* DailyCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyCheckViewController.h; sourceTree = "<group>"; };
+		C16C85501DD9BDBE007A1A46 /* DailyCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyCheckViewController.m; sourceTree = "<group>"; };
 		C16C85531DD9BDBE007A1A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16C85551DD9BDBE007A1A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16C85581DD9BDBE007A1A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +61,15 @@
 		C16C856A1DD9BDBE007A1A46 /* Wake Up!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16C856E1DD9BDBE007A1A46 /* Wake_Up_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wake_Up_UITests.m; sourceTree = "<group>"; };
 		C16C85701DD9BDBE007A1A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16C857C1DD9BE3F007A1A46 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		C16C857D1DD9BE3F007A1A46 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C16C85831DD9C5F2007A1A46 /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
+		C16C85851DD9C6F2007A1A46 /* Gender Neutral User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User-25.png"; sourceTree = "<group>"; };
+		C16C85871DD9C75F007A1A46 /* Today-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Today-25.png"; sourceTree = "<group>"; };
+		C1AEED521DE308AE00E7A52D /* Happy-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Happy-52.png"; sourceTree = "<group>"; };
+		C1AEED541DE308BA00E7A52D /* Sad-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sad-50.png"; sourceTree = "<group>"; };
+		C1AEED561DE308E200E7A52D /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		C1AEED571DE308E200E7A52D /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +122,20 @@
 			children = (
 				C16C85491DD9BDBE007A1A46 /* AppDelegate.h */,
 				C16C854A1DD9BDBE007A1A46 /* AppDelegate.m */,
-				C16C854C1DD9BDBE007A1A46 /* FirstViewController.h */,
-				C16C854D1DD9BDBE007A1A46 /* FirstViewController.m */,
-				C16C854F1DD9BDBE007A1A46 /* SecondViewController.h */,
-				C16C85501DD9BDBE007A1A46 /* SecondViewController.m */,
+				C16C854C1DD9BDBE007A1A46 /* HomeViewController.h */,
+				C16C854D1DD9BDBE007A1A46 /* HomeViewController.m */,
+				C1AEED561DE308E200E7A52D /* DataSource.h */,
+				C1AEED571DE308E200E7A52D /* DataSource.m */,
+				C16C854F1DD9BDBE007A1A46 /* DailyCheckViewController.h */,
+				C16C85501DD9BDBE007A1A46 /* DailyCheckViewController.m */,
+				C16C857C1DD9BE3F007A1A46 /* ProfileViewController.h */,
+				C16C857D1DD9BE3F007A1A46 /* ProfileViewController.m */,
 				C16C85521DD9BDBE007A1A46 /* Main.storyboard */,
+				C1AEED541DE308BA00E7A52D /* Sad-50.png */,
+				C1AEED521DE308AE00E7A52D /* Happy-52.png */,
+				C16C85831DD9C5F2007A1A46 /* Home-25.png */,
+				C16C85851DD9C6F2007A1A46 /* Gender Neutral User-25.png */,
+				C16C85871DD9C75F007A1A46 /* Today-25.png */,
 				C16C85551DD9BDBE007A1A46 /* Assets.xcassets */,
 				C16C85571DD9BDBE007A1A46 /* LaunchScreen.storyboard */,
 				C16C855A1DD9BDBE007A1A46 /* Info.plist */,
@@ -207,7 +232,7 @@
 		C16C853B1DD9BDBE007A1A46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "University of Leeds";
 				TargetAttributes = {
 					C16C85421DD9BDBE007A1A46 = {
@@ -251,9 +276,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16C85841DD9C5F2007A1A46 /* Home-25.png in Resources */,
 				C16C85591DD9BDBE007A1A46 /* LaunchScreen.storyboard in Resources */,
 				C16C85561DD9BDBE007A1A46 /* Assets.xcassets in Resources */,
+				C16C85861DD9C6F2007A1A46 /* Gender Neutral User-25.png in Resources */,
+				C1AEED531DE308AE00E7A52D /* Happy-52.png in Resources */,
+				C16C85881DD9C75F007A1A46 /* Today-25.png in Resources */,
 				C16C85541DD9BDBE007A1A46 /* Main.storyboard in Resources */,
+				C1AEED551DE308BA00E7A52D /* Sad-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16C85511DD9BDBE007A1A46 /* SecondViewController.m in Sources */,
+				C16C85511DD9BDBE007A1A46 /* DailyCheckViewController.m in Sources */,
 				C16C854B1DD9BDBE007A1A46 /* AppDelegate.m in Sources */,
-				C16C854E1DD9BDBE007A1A46 /* FirstViewController.m in Sources */,
+				C1AEED581DE308E200E7A52D /* DataSource.m in Sources */,
+				C16C857E1DD9BE3F007A1A46 /* ProfileViewController.m in Sources */,
+				C16C854E1DD9BDBE007A1A46 /* HomeViewController.m in Sources */,
 				C16C85481DD9BDBE007A1A46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +386,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,6 +435,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -513,6 +547,7 @@
 				C16C85751DD9BDBE007A1A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16C85761DD9BDBE007A1A46 /* Build configuration list for PBXNativeTarget "Wake Up!Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +556,7 @@
 				C16C85781DD9BDBE007A1A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16C85791DD9BDBE007A1A46 /* Build configuration list for PBXNativeTarget "Wake Up!UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +565,7 @@
 				C16C857B1DD9BDBE007A1A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
